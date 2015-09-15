@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sepbatch" parallel="false">
+      <test name="RegSet1">
+  	  <groups>
+      <run>
+      <include name="SmokeTest"/>
+      <exclude name="RegressionTest"/>
+      </run>
+      </groups>
+     <classes>
+            <class  name="Framework.Login_Component_Reference_Groups" />
+            <class  name="Framework.Scenario_Book_Search" />
+        </classes>
+    </test>
+            
+   
+</suite>
