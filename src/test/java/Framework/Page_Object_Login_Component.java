@@ -11,7 +11,9 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class Page_Object_Login_Component {
 	
+	
 	WebDriver browser;
+	
 	Utility_class c1=new Utility_class();
 	public void SetBrowser() throws IOException
 	{
@@ -20,6 +22,7 @@ public class Page_Object_Login_Component {
 		if(btype.equals("ff"))
 		{
 			browser= new FirefoxDriver();
+			System.out.println("Firefox started");
 		}
 		else if(btype.equals("ch"))
 		{
@@ -35,8 +38,8 @@ public class Page_Object_Login_Component {
 		}
 		
 		
-		browser.manage().deleteAllCookies();
 		
+		browser.manage().deleteAllCookies();
 		browser.get(c1.Reading_properties("URL"));
 		
 		browser.manage().window().maximize();
