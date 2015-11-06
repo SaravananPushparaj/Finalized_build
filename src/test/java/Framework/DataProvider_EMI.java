@@ -13,7 +13,7 @@ public class DataProvider_EMI {
 		
 		Obj[0][0]="20000";
 		Obj[0][1]="12";
-		Obj[0][2]="60";
+		Obj[0][2]="70";
 		Obj[0][3]="232.44";
 		
 		Obj[1][0]="12000";
