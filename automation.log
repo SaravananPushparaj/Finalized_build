@@ -7,7 +7,7 @@
 2015-10-29 16:36:56 INFO  Base_Class:41 - Launching the App in the Firefox
 2015-10-29 16:37:04 INFO  Scenario_Login:31 - Passed as Successfully validated the error message
 2015-10-29 16:37:04 INFO  Base_Class:66 - Closed the Browser
-2015-10-29 17:29:19 INFO  Scenario_Login:22 - Executing the Testcase GB_01 with Order 1.0
+2015-10-29 17:29:19 INFO  Sc_Login:22 - Executing the Testcase GB_01 with Order 1.0
 2015-10-29 17:29:26 INFO  Base_Class:41 - Launching the App in the Firefox
 2015-10-29 17:47:27 INFO  Scenario_Login:22 - Executing the Testcase GB_01 with Order 1.0
 2015-10-29 17:57:46 INFO  Scenario_Login:22 - Executing the Testcase GB_01 with Order 1.0
