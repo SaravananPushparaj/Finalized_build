@@ -11,7 +11,7 @@ public class DataProvider_EMI {
 	{
 		Object[][] Obj= new Object[2][4];
 		
-		Obj[0][0]="20000";
+		Obj[0][0]="16000";
 		Obj[0][1]="12";
 		Obj[0][2]="60";
 		Obj[0][3]="232.44";
