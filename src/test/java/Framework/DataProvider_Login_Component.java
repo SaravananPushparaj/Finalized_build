@@ -14,8 +14,8 @@ public class DataProvider_Login_Component {
 		
 		List<String> xlarr = flagRowcount("N");
 		int osize = xlarr.size();
-		Object[][] Obj= new Object[osize][4];
-		
+		Object[][] Obj= new Object[osize][];
+		int k=0;
 		int j=0;
 		for(String element:xlarr)
 		{
