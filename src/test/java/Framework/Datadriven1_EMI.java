@@ -9,8 +9,8 @@ public class Datadriven1_EMI {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		
 		WebDriver browser= new FirefoxDriver();
+		//WebDriver browser= new FirefoxDriver();
 		browser.get("http://www.unionbankofindia.co.in/EMICal.aspx");
 		
 		browser.manage().window().maximize();
