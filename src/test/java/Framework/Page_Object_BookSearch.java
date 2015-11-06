@@ -69,6 +69,19 @@ public class Page_Object_BookSearch {
 		return browser.findElement(By.cssSelector("html body div#wrap div#myDataDiv.hide center div#notify.div_notify p.sorrymsg")).getText();
 	}
 	
+	public void SetBrowser(WebDriver browser)
+	{
+		
+		this.browser=browser;
+		
+	}
+	
+	public WebDriver getbrowser()
+	{
+		
+		return browser;
+	}
+	
 	public void Close_Browser()
 	{
 		browser.close();

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Framework.Scenario_Book_Search">
+      <class name="lp.Scenario_Login">
         <methods>
-          <include name="Valid_Book_Search_test" invocation-numbers="0"/>
+          <include name="test_Invalid_login" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- Framework.Scenario_Book_Search -->
+      </class> <!-- lp.Scenario_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

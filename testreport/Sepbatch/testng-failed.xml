@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sepbatch]">
+  <test name="RegSet1(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+        <exclude name="RegressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Framework.Scenario_Book_Search">
+        <methods>
+          <include name="Valid_Book_Search_test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Framework.Scenario_Book_Search -->
+      <class name="Framework.Login_Component_Reference_Groups">
+        <methods>
+          <include name="Valid_login_test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Framework.Login_Component_Reference_Groups -->
+    </classes>
+  </test> <!-- RegSet1(failed) -->
+</suite> <!-- Failed suite [Sepbatch] -->

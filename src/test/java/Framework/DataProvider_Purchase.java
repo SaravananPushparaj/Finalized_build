@@ -84,6 +84,7 @@ public class DataProvider_Purchase {
 				String Search_Book = datatable.getCellData("Scenario_BookCart", "Search_Book", i);
 				String qty = datatable.getCellData("Scenario_BookCart", "Quantity", i);
 				String Exp_Res = datatable.getCellData("Scenario_BookCart", "Exp_Res", i);
+				Exp_Res=Exp_Res.trim();
 				String TC_ID = datatable.getCellData("Scenario_BookCart", "TC_ID", i);
 				
 				arr.add(Uname+";"+Pwd+";"+Search_Book+";"+qty+";"+Exp_Res+";"+TC_ID);

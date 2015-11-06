@@ -1,66 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Sepbatch" duration-ms="34170" started-at="2015-09-15T05:42:58Z" finished-at="2015-09-15T05:43:33Z">
+  <suite name="Sepbatch" duration-ms="390" started-at="2015-10-29T12:46:16Z" finished-at="2015-10-29T12:46:17Z">
     <groups>
-      <group name="SmokeTest">
-        <method signature="Login_Component_Reference_Groups.Valid_login_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Framework.Login_Component_Reference_Groups@27f674d]" name="Valid_login_test" class="Framework.Login_Component_Reference_Groups"/>
-        <method signature="Scenario_Book_Search.Valid_Book_Search_test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Framework.Scenario_Book_Search@58ceff1]" name="Valid_Book_Search_test" class="Framework.Scenario_Book_Search"/>
-      </group> <!-- SmokeTest -->
+      <group name="dryrun">
+        <method signature="Scenario_Login.test_valid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:lp.Scenario_Login@366e2eef]" name="test_valid_login" class="lp.Scenario_Login"/>
+      </group> <!-- dryrun -->
     </groups>
-    <test name="RegSet1" duration-ms="34170" started-at="2015-09-15T05:42:58Z" finished-at="2015-09-15T05:43:33Z">
-      <class name="Framework.Login_Component_Reference_Groups">
-        <test-method status="PASS" signature="Valid_login_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Framework.Login_Component_Reference_Groups@27f674d]" name="Valid_login_test" duration-ms="18881" started-at="2015-09-15T11:12:59Z" data-provider="dp_Valid_Login" finished-at="2015-09-15T11:13:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[qtpworld2008@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[learn123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[qtpworld2008 g]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[GB_07]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Valid_login_test -->
-      </class> <!-- Framework.Login_Component_Reference_Groups -->
-      <class name="Framework.Scenario_Book_Search">
-        <test-method status="PASS" signature="Valid_Book_Search_test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Framework.Scenario_Book_Search@58ceff1]" name="Valid_Book_Search_test" duration-ms="14098" started-at="2015-09-15T11:13:18Z" data-provider="dp_Valid_Search" finished-at="2015-09-15T11:13:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chandler]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[418]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[GB_08]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Valid_Book_Search_test -->
-      </class> <!-- Framework.Scenario_Book_Search -->
+    <test name="RegSet1" duration-ms="390" started-at="2015-10-29T12:46:16Z" finished-at="2015-10-29T12:46:17Z">
     </test> <!-- RegSet1 -->
   </suite> <!-- Sepbatch -->
 </testng-results>

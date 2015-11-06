@@ -3,14 +3,13 @@
       <test name="RegSet1">
   	  <groups>
       <run>
-      <include name="SmokeTest"/>
-      <exclude name="RegressionTest"/>
+      <include name="dryrun"/>
+     
       </run>
       </groups>
      <classes>
-            <class  name="Framework.Login_Component_Reference_Groups" />
-            <class  name="Framework.Scenario_Book_Search" />
-        </classes>
+            <class  name="lp.Scenario_Login" />
+         </classes>
     </test>
             
    

@@ -92,6 +92,12 @@ public class Page_Object_Login_Component {
 		
 	}
 	
+	public WebDriver getbrowser()
+	
+	{
+		return browser;
+		
+	}
 	public void Close_Browser()
 	{
 		browser.close();
