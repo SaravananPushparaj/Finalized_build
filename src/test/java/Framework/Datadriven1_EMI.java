@@ -14,7 +14,7 @@ public class Datadriven1_EMI {
 		browser.get("http://www.unionbankofindia.co.in/EMICal.aspx");
 		
 		browser.manage().window().maximize();
-		
+		browser.manage().window().maximize();
 		//Excel
 		
 		Xls_Reader datatable= new Xls_Reader("D:\\EMI_Data1.xlsx");
